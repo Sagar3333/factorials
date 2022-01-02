@@ -1,0 +1,16 @@
+def facctorial_iterative(n):
+    fact = 1
+    for i in range (num):
+        fact = fact*(i+1)
+    return fact
+def factorial_recursive(n):
+     
+    if (n==1):
+        return 1
+    else :
+        return n*factorial_recursive(n-1)
+
+    
+num= int(input("enter the number:"))
+print(factorial_recursive(num))
+print(facctorial_iterative(num))
